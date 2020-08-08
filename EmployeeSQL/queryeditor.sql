@@ -155,4 +155,7 @@ GROUP BY last_name
 ORDER BY names_count, last_name DESC;
 
 
-	  
+--Search your employee number
+SELECT *
+FROM "Employees"
+WHERE emp_no=499942
